@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('abonnements', function (Blueprint $table) {
             $table->id();
+            $table->string("nom_forfait");
+            $table->string("zone_forfait");
+            $table->string("prix_forfait");
             $table->timestamps();
         });
     }

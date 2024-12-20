@@ -54,7 +54,7 @@ return [
                     "libelle" => "Types d'utilisateur",
                     "active" => "Types d'utilisateur",
                     "niveau" => 1,
-                    "link" => "/"
+                    "link" => "/utilisateurs/type-utilisateur"
                 ],
             ],
         ],
@@ -98,13 +98,13 @@ return [
                     "libelle" => "Tarifs de ticket",
                     "active" => "Tarifs de ticket",
                     "niveau" => 1,
-                    "link" => "/"
+                    "link" => "/forfaits/tickets"
                 ],
                 [
                     "libelle" => "Abonnements",
                     "active" => "Abonnements",
                     "niveau" => 1,
-                    "link" => "/"
+                    "link" => "/forfaits/abonnements"
                 ],
                 [
                     "libelle" => "Client Abonnés",

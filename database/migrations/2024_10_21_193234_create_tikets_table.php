@@ -15,6 +15,15 @@ return new class extends Migration
     {
         Schema::create('tikets', function (Blueprint $table) {
             $table->id();
+            $table->string("code_tiket");
+            $table->string("depart");
+            $table->string("destination");
+            $table->string("prix");
+            $table->string("duree");
+            $table->string("date_emission");
+            $table->string("date_expiration");
+            $table->tinyInteger("status");
+            $table->bigInteger("user_id_ticket");
             $table->timestamps();
         });
     }

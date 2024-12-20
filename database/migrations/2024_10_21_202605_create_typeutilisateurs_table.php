@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('typeutilisateurs', function (Blueprint $table) {
             $table->id();
+            $table->string("nom_type_user");
+            $table->bigInteger("niveau_user");
             $table->timestamps();
         });
     }
